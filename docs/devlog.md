@@ -13,3 +13,7 @@ The app runs on Express 5.2. Noted the breaking changes worth double-checking: r
 ## 2026-02-27 11:52:00
 
 Went over routes/Auth.js. Local, Google and Facebook strategies are all wired through passport. Next step: re-check the flash messages shown on failed logins.
+
+## 2026-02-27 14:05:00
+
+Sketched the cart flow end to end: add item from the food menu, cart.ejs summary, then checkout. Cart totals still need a tax line.
