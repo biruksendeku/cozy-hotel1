@@ -17,3 +17,7 @@ Went over routes/Auth.js. Local, Google and Facebook strategies are all wired th
 ## 2026-02-27 14:05:00
 
 Sketched the cart flow end to end: add item from the food menu, cart.ejs summary, then checkout. Cart totals still need a tax line.
+
+## 2026-02-27 16:27:00
+
+Brainstormed admin panel improvements: order stats page, food item CRUD, and cleaner table sorting.
