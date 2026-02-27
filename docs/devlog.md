@@ -21,3 +21,7 @@ Sketched the cart flow end to end: add item from the food menu, cart.ejs summary
 ## 2026-02-27 16:27:00
 
 Brainstormed admin panel improvements: order stats page, food item CRUD, and cleaner table sorting.
+
+## 2026-02-27 19:41:00
+
+multer and cloudinary are already in the dependency list. Wrote down the plan to move food item image uploads into a dedicated middleware.
