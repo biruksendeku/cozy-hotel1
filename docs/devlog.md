@@ -33,3 +33,7 @@ Good day overall. Devlog habit feels sustainable. Tomorrow: middlewares audit.
 ## 2026-02-28 10:22:00
 
 Listed every middleware in middlewares/ and where it is mounted. Found two that are only used by admin routes.
+
+## 2026-02-28 11:47:00
+
+express-rate-limit is set up for auth endpoints. Noted that the login limiter should probably also cover the password reset route.
