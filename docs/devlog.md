@@ -41,3 +41,7 @@ express-rate-limit is set up for auth endpoints. Noted that the login limiter sh
 ## 2026-02-28 13:31:00
 
 express-session currently defaults to MemoryStore in dev. connect-mongo is installed, so production should use it. Added this to the checklist.
+
+## 2026-02-28 15:09:00
+
+Looked at views/partials. Header and footer are fine, but the flash message partial could use a nicer fade-out.
