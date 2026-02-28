@@ -37,3 +37,7 @@ Listed every middleware in middlewares/ and where it is mounted. Found two that 
 ## 2026-02-28 11:47:00
 
 express-rate-limit is set up for auth endpoints. Noted that the login limiter should probably also cover the password reset route.
+
+## 2026-02-28 13:31:00
+
+express-session currently defaults to MemoryStore in dev. connect-mongo is installed, so production should use it. Added this to the checklist.
