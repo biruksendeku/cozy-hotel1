@@ -49,3 +49,7 @@ Looked at views/partials. Header and footer are fine, but the flash message part
 ## 2026-02-28 17:44:00
 
 helmet is enabled. Consider loosening the CSP for cloudinary-hosted images only, instead of disabling it wholesale.
+
+## 2026-02-28 20:18:00
+
+Shorter session today but the middleware audit was worth it. Next week: models and data layer.
