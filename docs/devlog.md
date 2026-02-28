@@ -29,3 +29,7 @@ multer and cloudinary are already in the dependency list. Wrote down the plan to
 ## 2026-02-27 21:03:00
 
 Good day overall. Devlog habit feels sustainable. Tomorrow: middlewares audit.
+
+## 2026-02-28 10:22:00
+
+Listed every middleware in middlewares/ and where it is mounted. Found two that are only used by admin routes.
