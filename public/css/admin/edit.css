@@ -1,0 +1,459 @@
+     /* FOOD PREVIEW STYLE  */
+      .edit-header {
+        text-align: center;
+        margin: 5px auto;
+        padding: 25px 25px 10px 25px;
+      }
+      .edit-header > h1 {
+      	font-size: 2rem;
+      	color: #1c1c1c;
+      	font-weight: 600;
+      	font-family: 'Playfair Display', 'Poppins', Sans-Serif;
+      	font-optical-sizing: auto;
+      	font-style: normal;
+      }
+      .edit-info {
+        text-align: center;
+        margin-bottom: 25px;
+        padding: 0 25px 10px 25px;
+        font-family: 'Poppins', Sans-Serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+      .edit-info > p {
+      	color: var(--gray);
+      	font-size: 1rem;
+      }
+      .food-preview {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 15px 0;
+      }
+      .food-item {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 95%;
+        padding-bottom: 35px;
+        background: var(--white);
+        border-radius: var(--radius);
+        transition: all 0.3s ease;
+      }
+      .food-item:hover {
+        box-shadow: var(--shadow);
+        transform: translateY(-5px);
+      }
+      .image-div {
+        position: relative;
+        width: 100%;
+      }
+      .category-tag {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        padding: 5px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        background: var(--secondary);
+        color: var(--white);
+        border-radius: var(--radius);
+      }
+      .rating-tag {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        padding: 5px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        background: rgba(240, 240, 240, 0.85);
+        border-radius: var(--radius);
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+      }
+      .rating-tag > span {
+        color: var(--dark);
+      }
+      .rating-tag > i {
+        color: gold;
+      }
+      .image-container {
+        margin: auto;
+      }
+      .image-container > img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-top-left-radius: var(--radius);
+        border-top-right-radius: var(--radius);
+      }
+      .name-price-div {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+      }
+      .name-price-div > p {
+        color: var(--dark);
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+      .name-price-div > span {
+        color: var(--primary);
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+      .foodInfo-div {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 90%;
+      }
+      .foodInfo-div > p {
+        font-size: 1.15rem;
+        font-weight: normal;
+        color: var(--gray);
+      }
+      .time-energy-div {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+      }
+      .time-span, .energy-span {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+      }
+      .time-span > i, .energy-span > i {
+        color: var(--primary);
+        font-size: 1rem;
+      }
+      .time-span > p, .energy-span > p {
+        color: var(--gray);
+        font-weight: light;
+      }
+    
+     /* FORM STYLE  */
+  .form-container {
+    margin: 40px 25px;
+    padding: 40px;
+    border-radius: var(--radius);
+    background: var(--white);
+    color: var(--dark);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  .form-head > h1 {
+    text-align: center;
+    color: var(--dark);
+    font-size: 1.8rem;
+  }
+  .form-message > p {
+    text-align: center;
+    color: var(--gray);
+  }
+  .form-form {
+    display: flex;
+    flex-flow: column;
+    gap: 60px;
+  }
+  .form-data {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  input, textarea {
+     font-family: 'Poppins', 'Arial', Sans-Serif;
+     font-size: 1.3rem;
+     font-weight: 500;
+   }
+  .form-data > label {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .form-data > label > i {
+    color: var(--primary);
+  }
+  .form-data > input, .form-data > textarea {
+    outline: none;
+    border: 1px solid var(--gray-light);
+    border-radius: var(--radius);
+    color: var(--dark);
+    padding: 20px;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  .form-data > textarea {
+    height: 100%;
+  }
+  .form-data > input:focus, .form-data > textarea:focus {
+    box-shadow: 0 0 3px 1.5px var(--primary);
+  }
+  .form-data > input::placeholder, .form-data > textarea::placeholder {
+    color: var(--gray);
+    font-size: 1.15rem;
+  }
+  .form-foodInfo > textarea::placeholder {
+    font-weight: 500;
+  }
+  .form-data > span {
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--gray);
+    padding: 0 35px;
+    text-align: left;
+  }
+  .rating-input {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    border: 1px solid var(--gray-light);
+    border-radius: var(--radius);
+  }
+  .rating-input > input {
+    outline: none;
+    border: none;
+    color: var(--dark);
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease;
+    border-radius: var(--radius);
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .rating-input > input:focus {
+    box-shadow: 0 0 3px 1.5px var(--primary);
+  }
+  .rating-input > input::placeholder {
+    color: var(--gray);
+    font-size: 1.2rem;
+  }
+  .rating-input > div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+  }
+  .rating-input > div > i {
+    color: gold;
+    font-size: 1.2rem;
+  }
+  .image-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  .image-container:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+  }
+  .image-placeholder {
+    border: 1px dashed var(--gray);
+    background: #f9f9f9;
+    border-radius: var(--radius);
+    padding: 60px 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17.5px;
+    width: 100%;
+  }
+  .image-placeholder > i {
+    color: var(--gray-light);
+    font-size: 4rem;
+  }
+  .image-placeholder > p {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .image-placeholder > span {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: var(--gray);
+  }
+  .checkbox-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+  }
+  .checkbox-label {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid var(--gray-light);
+    border-radius: var(--radius);
+    padding: 25px;
+    height: 110px;
+    transition: all 0.3s ease;
+  }
+  .checkbox-label:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+  }
+  .checkbox-label > input[type="radio"] {
+    accent-color: var(--primary);
+  }
+  .checkbox-text {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+  }
+  .checkbox-text > strong {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--dark);
+  }
+  .checkbox-text > small {
+    color: var(--gray);
+    font-weight: light;
+    font-size: 1rem;
+  }
+  .form-actions {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+  }
+  .all-actions {
+    outline: none;
+    border: 1px solid var(--gray-light);
+    color: var(--dark);
+    font-size: 1.05rem;
+    font-weight: normal;
+    width: 100%;
+    padding: 10px 25px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    background: var(--white);
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', Sans-Serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+  }
+  .all-actions:hover {
+    transform: translateY(-5px);
+    box-shadow: -0.5px 0 8px var(--primary-dark);
+  }
+  .all-actions > i {
+    color: var(--dark);
+  }
+  .all-actions:nth-child(3) {
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    font-weight: 500;
+  }
+  .all-actions:nth-child(3) > i {
+    color: var(--white);
+  }
+.preview-div {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 25px;
+        width: 100%;
+}
+.preview-div > h1 {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+}
+.preview-div > h1 > i {
+        color: var(--primary);
+        font-size: 1.3rem;
+}
+.image-preview-container {
+        width: 100%;
+        height: 250px;
+        border-radius: var(--radius);
+        border: 2px solid var(--gray-light);
+        background: #f4f4f4;
+        transition: all 0.3s ease;
+}
+.image-preview-container:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow);
+}
+.image-preview-container > img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: var(--radius);
+}
+
+/* STATUS MESSAGES */
+.creation-status {
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      margin: 25px auto;
+    }
+    .creation-status-container {
+      width: 80%;
+    }
+    .creation-status-div {
+      border-radius: var(--radius);
+      background: var(--white);
+      padding: 5px 10px;
+      text-align: center;
+      font-size: 1.4rem;
+      font-weight: bold;
+      font-family: inherit;
+    }
+    .creation-failed {
+      color: #dc3545;
+      box-shadow: -2px 3px 10px #dc3545;
+    }
+    .creation-success {
+      color: #28a745;
+      box-shadow: -2px 3px 10px #28a745;
+    }
