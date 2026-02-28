@@ -45,3 +45,7 @@ express-session currently defaults to MemoryStore in dev. connect-mongo is insta
 ## 2026-02-28 15:09:00
 
 Looked at views/partials. Header and footer are fine, but the flash message partial could use a nicer fade-out.
+
+## 2026-02-28 17:44:00
+
+helmet is enabled. Consider loosening the CSP for cloudinary-hosted images only, instead of disabling it wholesale.
