@@ -53,3 +53,7 @@ helmet is enabled. Consider loosening the CSP for cloudinary-hosted images only,
 ## 2026-02-28 20:18:00
 
 Shorter session today but the middleware audit was worth it. Next week: models and data layer.
+
+## 2026-03-03 09:41:00
+
+Went through models/. User, Food and Order schemas look consistent. The timestamps option is only enabled on some of them; noting it for cleanup.
