@@ -57,3 +57,7 @@ Shorter session today but the middleware audit was worth it. Next week: models a
 ## 2026-03-03 09:41:00
 
 Went through models/. User, Food and Order schemas look consistent. The timestamps option is only enabled on some of them; noting it for cleanup.
+
+## 2026-03-03 12:16:00
+
+express-validator covers the signup flow. Food item creation relies on manual checks for now; worth migrating to the same validator style.
