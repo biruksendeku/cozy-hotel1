@@ -65,3 +65,7 @@ express-validator covers the signup flow. Food item creation relies on manual ch
 ## 2026-03-03 15:38:00
 
 controllers/OrderStat.js tracks order states. Wrote down the intended transitions: placed, preparing, delivered, cancelled.
+
+## 2026-03-03 18:52:00
+
+controllers/Email.js sends via nodemailer. Plan: extract the HTML into views/partials so templates are editable without touching logic.
