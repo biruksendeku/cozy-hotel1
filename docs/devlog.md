@@ -61,3 +61,7 @@ Went through models/. User, Food and Order schemas look consistent. The timestam
 ## 2026-03-03 12:16:00
 
 express-validator covers the signup flow. Food item creation relies on manual checks for now; worth migrating to the same validator style.
+
+## 2026-03-03 15:38:00
+
+controllers/OrderStat.js tracks order states. Wrote down the intended transitions: placed, preparing, delivered, cancelled.
