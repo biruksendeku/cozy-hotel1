@@ -93,3 +93,7 @@ compression middleware is mounted app-wide. Verified that images served from pub
 ## 2026-03-04 17:39:00
 
 Drafted deployment steps: set MONGO_URI and SMTP env vars, run npm ci, enable the connect-mongo session store, then smoke-test checkout.
+
+## 2026-03-04 20:45:00
+
+Long but productive day. API standard is decided and a deployment draft exists. Tomorrow: finish the API review.
