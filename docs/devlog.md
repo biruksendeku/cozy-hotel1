@@ -73,3 +73,7 @@ controllers/Email.js sends via nodemailer. Plan: extract the HTML into views/par
 ## 2026-03-04 08:57:00
 
 Reading routes/Api.js top to bottom this morning. Response shapes are inconsistent: some endpoints wrap data, some do not.
+
+## 2026-03-04 10:11:00
+
+Decided on a standard response envelope: success, message, data. Older endpoints get migrated gradually.
