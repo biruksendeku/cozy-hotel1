@@ -89,3 +89,7 @@ Wrote down filter ideas for the public menu: category, price range, vegetarian f
 ## 2026-03-04 15:07:00
 
 compression middleware is mounted app-wide. Verified that images served from public/ are not double-compressed.
+
+## 2026-03-04 17:39:00
+
+Drafted deployment steps: set MONGO_URI and SMTP env vars, run npm ci, enable the connect-mongo session store, then smoke-test checkout.
