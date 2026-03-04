@@ -69,3 +69,7 @@ controllers/OrderStat.js tracks order states. Wrote down the intended transition
 ## 2026-03-03 18:52:00
 
 controllers/Email.js sends via nodemailer. Plan: extract the HTML into views/partials so templates are editable without touching logic.
+
+## 2026-03-04 08:57:00
+
+Reading routes/Api.js top to bottom this morning. Response shapes are inconsistent: some endpoints wrap data, some do not.
