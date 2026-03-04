@@ -77,3 +77,7 @@ Reading routes/Api.js top to bottom this morning. Response shapes are inconsiste
 ## 2026-03-04 10:11:00
 
 Decided on a standard response envelope: success, message, data. Older endpoints get migrated gradually.
+
+## 2026-03-04 11:46:00
+
+Went through routes/Admin.js and Admin2.js. The split is confusing; noting that Admin2 should eventually fold into Admin behind role middleware.
