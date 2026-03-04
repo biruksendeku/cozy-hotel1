@@ -85,3 +85,7 @@ Went through routes/Admin.js and Admin2.js. The split is confusing; noting that 
 ## 2026-03-04 13:24:00
 
 Wrote down filter ideas for the public menu: category, price range, vegetarian flag, and search by name.
+
+## 2026-03-04 15:07:00
+
+compression middleware is mounted app-wide. Verified that images served from public/ are not double-compressed.
