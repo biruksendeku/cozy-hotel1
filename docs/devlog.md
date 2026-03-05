@@ -121,3 +121,7 @@ signup.ejs validation errors currently show all at once. Noted the idea of inlin
 ## 2026-03-05 17:14:00
 
 Wrote a short summary of the past week of notes: auth polish, API standard, admin cleanup and email templates are the main threads.
+
+## 2026-03-05 19:48:00
+
+Closing out this batch of notes. Next session starts with the central error handler.
