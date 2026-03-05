@@ -101,3 +101,7 @@ Long but productive day. API standard is decided and a deployment draft exists. 
 ## 2026-03-05 09:08:00
 
 Finished reading routes/Api.js. Two endpoints return raw Mongo errors; noted that they should be mapped to friendly messages.
+
+## 2026-03-05 10:33:00
+
+Plan: a central error handler middleware that distinguishes validation, auth and server errors, with flash messages for ejs pages and JSON for api routes.
