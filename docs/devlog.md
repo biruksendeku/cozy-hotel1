@@ -113,3 +113,7 @@ Looked over views/home.ejs. Hero section is fine; noted that the featured food g
 ## 2026-03-05 13:57:00
 
 views/service.ejs needs clearer copy. Drafted one-liners for the rooms, dining and events sections.
+
+## 2026-03-05 15:26:00
+
+signup.ejs validation errors currently show all at once. Noted the idea of inline field-level errors instead.
