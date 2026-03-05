@@ -109,3 +109,7 @@ Plan: a central error handler middleware that distinguishes validation, auth and
 ## 2026-03-05 12:01:00
 
 Looked over views/home.ejs. Hero section is fine; noted that the featured food grid can reuse the cart.ejs item card markup.
+
+## 2026-03-05 13:57:00
+
+views/service.ejs needs clearer copy. Drafted one-liners for the rooms, dining and events sections.
