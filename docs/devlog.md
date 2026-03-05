@@ -105,3 +105,7 @@ Finished reading routes/Api.js. Two endpoints return raw Mongo errors; noted tha
 ## 2026-03-05 10:33:00
 
 Plan: a central error handler middleware that distinguishes validation, auth and server errors, with flash messages for ejs pages and JSON for api routes.
+
+## 2026-03-05 12:01:00
+
+Looked over views/home.ejs. Hero section is fine; noted that the featured food grid can reuse the cart.ejs item card markup.
