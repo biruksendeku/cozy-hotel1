@@ -97,3 +97,7 @@ Drafted deployment steps: set MONGO_URI and SMTP env vars, run npm ci, enable th
 ## 2026-03-04 20:45:00
 
 Long but productive day. API standard is decided and a deployment draft exists. Tomorrow: finish the API review.
+
+## 2026-03-05 09:08:00
+
+Finished reading routes/Api.js. Two endpoints return raw Mongo errors; noted that they should be mapped to friendly messages.
