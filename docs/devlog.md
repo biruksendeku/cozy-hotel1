@@ -117,3 +117,7 @@ views/service.ejs needs clearer copy. Drafted one-liners for the rooms, dining a
 ## 2026-03-05 15:26:00
 
 signup.ejs validation errors currently show all at once. Noted the idea of inline field-level errors instead.
+
+## 2026-03-05 17:14:00
+
+Wrote a short summary of the past week of notes: auth polish, API standard, admin cleanup and email templates are the main threads.
